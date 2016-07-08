@@ -1,15 +1,70 @@
+.heading1
+{
+  margin-left: 20px;;
+  font-family: Lobster, cursive;
+  font-size: 60px;
+  width: 400px;
+  float: left;
+  /*color: whitesmoke;-*/
+  color:grey;
+  text-shadow: 5px 5px 15px black;
+}
+.wrap{
+  min-width: 1300px;
+}
+.ul1{
+  margin-top: 30px;
+  float: left;
+}
+.ul1 a{
+
+  letter-spacing: 2px;
+  font-style:oblique;
+  font-family: 'Indie Flower', cursive;
+  font-size: 22px;
+  padding-right: 15px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+.ul1 a:hover{
+  font-size: 25px;
+}
+.ul1 li
+{
+  /*background: yellow;*/
+  margin-top:
+  text-decoration: none;
+  display: inline;
+}
+/*body{
+  width: 100%;
+  height: 100%;
+  background: url(IMG/Image1.jpg) no-repeat;
+  z-index: -1000;
+}*/
+/*.grid_4{
+  background: red;
+}
+.gird_8{
+  background: yellow;
+}*/
 video {
-  margin: 10px;
+  margin-top: 0px;
+  width: 100%;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
+    top: 0px;
+    left: 0px;
+    /*top: 50%;
+    left: 50%;*/
+    /*min-width: 100%;
     min-height: 100%;
     width: auto;
-    height: auto;
-    z-index: -100;
+    height: auto;*/
+    z-index: -1000;
+    /*
     transform: translateX(-50%) translateY(-50%);
  background: url('http://e2.365dm.com/16/03/768x432/cristiano-ronaldo-real-madrid_3426628.jpg?20160305165528');
   background-size: cover;
-  transition: 1s opacity;
+  transition: 1s opacity;*/
 }
