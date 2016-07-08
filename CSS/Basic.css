@@ -9,7 +9,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- background: url('http://e2.365dm.com/16/03/768x432/cristiano-ronaldo-real-madrid_3426628.jpg?20160305165528') no-repeat;
+ background: url('http://e2.365dm.com/16/03/768x432/cristiano-ronaldo-real-madrid_3426628.jpg?20160305165528');
   background-size: cover;
   transition: 1s opacity;
 }
