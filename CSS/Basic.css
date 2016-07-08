@@ -29,6 +29,8 @@
   text-decoration: none;
   color: whitesmoke;
   font-weight: bolder;
+  transition: all .2s ease-in-out;
+
 }
 /*.ul1 li:hover{
   font-size: 10px;
@@ -37,6 +39,9 @@
   font-size: 25px;
   letter-spacing: 1px;
   transition: all 0.5s ease-out;
+  color: gold;
+  transform: scale(1.1);
+
   /*transition-delay: 2s;*/
 }
 .ul1 a:after {
@@ -86,22 +91,98 @@ video {
   transition: 1s opacity;*/
 }
 .wrapper {
+  /*background: red;*/
   position: absolute;
-  height: 200%;
+  height: 100%;
   width: 100%;
-  background-color: red;
+  /*background-color: red;*/
   top: 100%;
 }
-/*.wrapper
-{
-    position: absolute;;
-    bottom: 450px;
-    margin-left: 10%;
-    margin-right: 60%;
-    border-radius: 35%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 30px;
-}*/
+.wrapper_c1{
+  margin-left: 15%;
+  margin-top: 7%;
+}
+.wrapper_c1 a{
+  text-decoration: none;
+}
+#wrapper_c1_id1{
+font-size: 23px;
+background: url(../IMG/UEFA.jpg) no-repeat;
+width: 20%;
+color: yellow;
+text-align: center;
+padding-top: 25px;
+background-size: cover;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 5px;
+padding-right: 5px;
+z-index: 100;
+border-radius: 75px;
+border-collapse: collapse;
+}
+.wrapper_c2{
+  margin-left: 60%;
+  margin-top: 0%;
+}
+.wrapper_c2 a{
+  text-decoration: none;
+}
+#wrapper_c2_id2{
+font-size: 28px;
+background: url(../IMG/EURO.jpg) no-repeat;
+width: 40%;
+color: Black;
+font-weight: bold;
+text-align: center;
+padding-top: 30px;
+padding-left: 8px;
+padding-right: 8px;
+background-size: cover;
+padding-bottom: 45px;
+z-index: 100;
+border-radius: 75px;
+}
+.wrapper_c3{
+  margin-left: 15%;
+  margin-top: 0%;
+}
+.wrapper_c3 a{
+  text-decoration: none;
+}
+#wrapper_c3_id3{
+font-size: 28px;
+background: url(../IMG/club.png) no-repeat;
+width: 20%;
+color: Black;
+font-weight: bold;
+text-align: center;
+padding-top: 30px;
+padding-left: 8px;
+padding-right: 8px;
+background-size: cover;
+padding-bottom: 45px;
+z-index: 100;
+border-radius: 75px;
+}.wrapper_c4{
+  margin-left: 60%;
+  margin-top: 0%;
+}
+.wrapper_c4 a{
+  text-decoration: none;
+}
+#wrapper_c4_id4{
+font-size: 28px;
+background: url(../IMG/fifa.jpg) no-repeat;
+width: 40%;
+color: whitesmoke;
+font-weight: bold;
+text-align: center;
+padding-top: 30px;
+padding-left: 4px;
+padding-right: 8px;
+background-size: cover;
+padding-bottom: 35px;
+z-index: 100;
+border-radius: 75px;
+}
