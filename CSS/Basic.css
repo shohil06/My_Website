@@ -10,10 +10,10 @@
   /*text-shadow: 5px 5px 15px black;*/
 }
 .wrap {
-  background-color: transparent;
   position: fixed;
   min-width: 1300px;
   z-index: 99;
+  opacity: 0.8;
 }
 .ul1{
   margin-top: 30px;
@@ -92,6 +92,8 @@ padding-right: 5px;
 z-index: 100;
 border-radius: 75px;
 border-collapse: collapse;
+opacity: 0.7;
+
 }
 .wrapper_c2{
   margin-left: 60%;
@@ -114,6 +116,8 @@ background-size: cover;
 padding-bottom: 45px;
 z-index: 100;
 border-radius: 75px;
+opacity: 0.7;
+
 }
 
 .wrapper_c3{
@@ -138,9 +142,13 @@ background-size: cover;
 padding-bottom: 45px;
 z-index: 100;
 border-radius: 75px;
-}.wrapper_c4{
+opacity: 0.7;
+
+}
+.wrapper_c4{
   margin-left: 60%;
   margin-top: 0%;
+  margin-bottom: 10%;
 }
 .wrapper_c4 a{
   text-decoration: none;
@@ -159,14 +167,214 @@ background-size: cover;
 padding-bottom: 35px;
 z-index: 100;
 border-radius: 75px;
+opacity: 0.7;
 }
 .footer1{
+  position: absolute;
   border-spacing: 5px;
   border-color: black;
+  border-top: solid;
+  border-top-width: 3px;
   border-top-width: thick;
-  position: absolute;
-  background: red;
+  background: lightgrey;
+  /*background: url(../IMG/messi.jpg) no-repeat;*/
   width: 100%;
-  height: 50%;
+  height: 65%;
   top: 200%;
+  opacity: 0.7;
+}
+.footer1_div1
+{
+  position: relative;
+  float: left;
+}
+.footer1_div1_Topic
+{
+  float: left;
+  background: url(../IMG/Image2.jpg) no-repeat;
+  width: 20%;
+  font-family: Lobster, cursive;
+  font-size: 40px;
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 110px;
+  padding-left: 40px;
+  background-size: cover;
+  padding-bottom: 95px;
+  padding-right: 60px;
+  margin-left: 10px;
+  z-index: 100;
+  border-top-right-radius: 125px;
+  border-top-left-radius: 125px;
+  border-bottom-left-radius: 125px;
+  border-bottom-right-radius: 125px;
+  opacity: 1;
+}
+.footer1_div1_span1
+{
+  color: black;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: 185px;
+  position: relative;
+  float: left;
+}
+
+.footer1_div2
+{
+  letter-spacing: 2px;
+  padding-left:35px;
+  padding-top: 15px;
+  padding-right: 15px;
+  position: relative;
+  float: left;
+}
+.footer1_div2 h1
+{
+  color: green;
+  padding-bottom: 10px;
+}
+.footer1_div2 h1 a{
+  color: black;
+  text-decoration: none;
+}
+.footer1_div2_h1
+{
+  font-size: 30px;
+  font-family: lobster , curvasive;
+}
+
+.footer1_div3
+{
+  letter-spacing: 2px;
+  padding-left:35px;
+  padding-top: 15px;
+  position: relative;
+  float: left;
+}
+.footer1_div3 h1
+{
+  color: green;
+  padding-bottom: 10px;
+}
+.footer1_div3 h1 a{
+  color: black;
+  text-decoration: none;
+}
+.footer1_div3_h1
+{
+  font-size: 30px;
+  font-family: lobster , curvasive;
+}
+
+.footer1_div3
+{
+  border-left: solid;
+  border-color: black;
+  border-left-width: 3px;
+  letter-spacing: 2px;
+  padding-left:35px;
+  padding-top: 15px;
+  padding-right: 15px;
+  position: relative;
+  float: left;
+}
+.footer1_div3 h1
+{
+  color: green;
+  padding-bottom: 10px;
+}
+.footer1_div3 h1 a{
+  color: black;
+  text-decoration: none;
+}
+.footer1_div3_h1
+{
+  font-size: 30px;
+  font-family: lobster , curvasive;
+}
+
+.footer1_div4
+{
+  border-left: solid;
+  border-left-color: black;
+  letter-spacing: 2px;
+  padding-left:35px;
+  padding-top: 15px;
+  position: relative;
+  float: left;
+}
+.footer1_div4 h1
+{
+  color: green;
+  padding-bottom: 10px;
+}
+.footer1_div4 h1 a{
+  color: black;
+  text-decoration: none;
+}
+.footer1_div4_h1
+{
+  font-size: 30px;
+  font-family: lobster , curvasive;
+}
+.footer1_div5
+{
+  width: 700px;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 35px;
+  float:left;
+  font-family: lobster , cursive;
+  font-weight: bold;
+}
+#footer1_div5_id2
+{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
+  float: left;
+}
+
+#footer1_div5_id3
+{
+  padding-left: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+#footer1_div5_id4
+{
+  padding-left: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+#footer1_div5_id5
+{
+  padding-left: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+#footer1_div5_id6
+{
+  padding-left: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+  width: 50px;
+  height: 50px;
+  float: left;
 }
