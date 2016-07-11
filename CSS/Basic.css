@@ -1,3 +1,17 @@
+.over_video{
+  position: fixed;
+  top: 25%;
+  width: 100%;
+  z-index: 99;
+}
+.over_video_p1{
+  font-size: 40px;
+  font-family: lobster , cursive;
+  background: grey;
+  text-align: center;
+  height: 80px;
+  opacity: 0.4;
+}
 .heading1
 {
   margin-left: 20px;;
@@ -30,7 +44,6 @@
   color: whitesmoke;
   font-weight: bolder;
   transition: all .2s ease-in-out;
-
 }
 /*.ul1 li:hover{
   font-size: 10px;
