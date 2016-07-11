@@ -6,11 +6,11 @@
   width: 400px;
   float: left;
   /*color: whitesmoke;-*/
-  color:grey;
+  color:whitesmoke;
   /*text-shadow: 5px 5px 15px black;*/
 }
 .wrap {
-  position: fixed;
+  position: relative;
   min-width: 1300px;
   z-index: 99;
   opacity: 0.8;
@@ -56,6 +56,25 @@
   margin-top:
   text-decoration: none;
   display: inline;
+}
+.ul1_cleague{
+  font-size:25px;
+  color: yellow;
+  background-color: grey;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 5px;
+}
+.Bcg_image{
+  background: url(../IMG/fifa.jpg)no-repeat;
+  background-size: cover;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.Mains{
+  top: 10%;
 }
 .footer1{
   position: absolute;
