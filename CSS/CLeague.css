@@ -10,8 +10,8 @@
   /*text-shadow: 5px 5px 15px black;*/
 }
 .wrap {
-  position: fixed;
-  min-width: 1300px;
+  position: relative;
+  min-width: 100%;
   z-index: 99;
   opacity: 0.8;
 }
@@ -57,6 +57,67 @@
   text-decoration: none;
   display: inline;
 }
+.ul1_cleague{
+  font-size:25px;
+  color: yellow;
+  background-color: grey;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 5px;
+}
+.cl_div1{
+  padding-top: 125px;
+  position: relative;
+  margin-left: 35px;;
+}
+#cl_div1_id1{
+  letter-spacing: 3px;
+  color: whitesmoke;
+  font-family: lobster , cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+#cl_div1_id2{
+  color: whitesmoke;
+  font-family: cursive;
+  font-size: 18px;
+}
+#cl_div1_id3{
+  letter-spacing: 3px;
+  color: whitesmoke;
+  font-family: lobster , cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+.Bcg_image{
+  background: url("../IMG/Champ1.jpg") no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: -999;
+}
+.cl_div2_div1{
+  /*background-color: yellow;*/
+  z-index: 98;
+  height: 200px;
+}
+.cl_div2_div1_ul li{
+  padding-left: 35px;
+  padding-bottom: 20px;
+  float:left;
+  width: 100px;
+  height: 124px;
+}
+.cl_div2_div1_ul li a{
+  display: block;
+}
+.txtlink{
+  padding-left: 22px;
+}
+
+
+
 .footer1{
   position: absolute;
   border-spacing: 5px;
