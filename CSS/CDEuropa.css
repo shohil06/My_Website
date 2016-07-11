@@ -88,7 +88,7 @@
   background: url(../IMG/Image2.jpg) no-repeat;
   width: 20%;
   font-family: Lobster, cursive;
-  font-size: 40px;
+  font-size: 45px;
   color: whitesmoke;
   font-weight: bold;
   text-align: center;
@@ -231,9 +231,16 @@
   width: 50px;
   height: 50px;
   padding-right: 10px;
-  float: left;
+  float: left;opacity: 0.4;
 }
-
+#footer1_div5_id2:hover{
+  transition: all 1s ease-out;
+  opacity: 0.8;
+}
+#footer1_div5_id2:after{
+  transition: all 2s ease-in;
+  opacity: 0.4;
+}
 #footer1_div5_id3
 {
   padding-left: 10px;
@@ -242,8 +249,16 @@
   width: 50px;
   height: 50px;
   float: left;
+  opacity: 0.4;
 }
-
+#footer1_div5_id3:hover{
+  transition: all 1s ease-out;
+  opacity: 0.8;
+}
+#footer1_div5_id3:after{
+  transition: all 2s ease-in;
+  opacity: 0.4;
+}
 #footer1_div5_id4
 {
   padding-left: 10px;
@@ -252,8 +267,16 @@
   width: 50px;
   height: 50px;
   float: left;
+  opacity: 0.4;
 }
-
+#footer1_div5_id4:hover{
+  transition: all 1s ease-out;
+  opacity: 0.8;
+}
+#footer1_div5_id4:after{
+  transition: all 2s ease-in;
+  opacity: 0.4;
+}
 #footer1_div5_id5
 {
   padding-left: 10px;
@@ -262,6 +285,15 @@
   width: 50px;
   height: 50px;
   float: left;
+  opacity: 0.4;
+}
+#footer1_div5_id5:hover{
+  transition: all 1s ease-out;
+  opacity: 0.8;
+}
+#footer1_div5_id5:after{
+  transition: all 2s ease-in;
+  opacity: 0.4;
 }
 #footer1_div5_id6
 {
@@ -271,4 +303,13 @@
   width: 50px;
   height: 50px;
   float: left;
+  opacity: 0.4;
+}
+#footer1_div5_id6:hover{
+  transition: all 1s ease-out;
+  opacity: 0.8;
+}
+#footer1_div5_id6:after{
+  transition: all 2s ease-in;
+  opacity: 0.4;
 }
