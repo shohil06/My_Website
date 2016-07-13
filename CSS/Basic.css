@@ -1,19 +1,19 @@
 .over_video{
   position: fixed;
-  top: 25%;
+  top: 15%;
   width: 100%;
   z-index: 99;
 }
 .over_video_p1{
   font-size: 40px;
   font-family: lobster , cursive;
-  background: grey;
+  background: lightgrey;
   text-align: center;
+  border-radius: 75px;
   height: 80px;
-  opacity: 0.4;
+  opacity: 0.2;
 }
-.heading1
-{
+.heading1{
   margin-left: 20px;;
   font-family: Lobster, cursive;
   font-size: 60px;
@@ -34,7 +34,6 @@
   float: left;
 }
 .ul1 a{
-
   letter-spacing: 2px;
   font-style:oblique;
   font-family: 'Indie Flower', cursive;
@@ -45,17 +44,12 @@
   font-weight: bolder;
   transition: all .2s ease-in-out;
 }
-/*.ul1 li:hover{
-  font-size: 10px;
-}*/
-.ul1 a:hover {
+.ul1 a:hover{
   font-size: 25px;
   letter-spacing: 1px;
-  transition: all 0.5s ease-out;
   color: gold;
+  transition: all 0.5s ease-out;
   transform: scale(1.1);
-
-  /*transition-delay: 2s;*/
 }
 .ul1 a:after {
   font-size: 25px;
@@ -63,8 +57,7 @@
   transition: all 5s ease-out;
   /*transition-delay: 2s;*/
 }
-.ul1 li
-{
+.ul1 li{
   /*background: yellow;*/
   margin-top:
   text-decoration: none;
@@ -74,113 +67,6 @@ video {
     margin-top: 0px;
     width: 100%;
     position: fixed;
-}
-.wrapper {
-  /*background: red;*/
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  /*background-color: red;*/
-  top: 100%;
-}
-.wrapper_c1{
-  margin-left: 15%;
-  margin-top: 7%;
-}
-.wrapper_c1 a{
-  text-decoration: none;
-}
-#wrapper_c1_id1{
-font-size: 23px;
-background: url(../IMG/UEFA.jpg) no-repeat;
-width: 20%;
-color: yellow;
-text-align: center;
-padding-top: 25px;
-background-size: cover;
-padding-top: 30px;
-padding-bottom: 30px;
-padding-left: 5px;
-padding-right: 5px;
-z-index: 100;
-border-radius: 75px;
-border-collapse: collapse;
-opacity: 0.7;
-
-}
-.wrapper_c2{
-  margin-left: 60%;
-  margin-top: 0%;
-}
-.wrapper_c2 a{
-  text-decoration: none;
-}
-#wrapper_c2_id2{
-font-size: 28px;
-background: url(../IMG/EURO.jpg) no-repeat;
-width: 40%;
-color: Black;
-font-weight: bold;
-text-align: center;
-padding-top: 30px;
-padding-left: 8px;
-padding-right: 8px;
-background-size: cover;
-padding-bottom: 45px;
-z-index: 100;
-border-radius: 75px;
-opacity: 0.7;
-
-}
-
-.wrapper_c3{
-  margin-left: 15%;
-  margin-top: 0%;
-}
-
-.wrapper_c3 a{
-  text-decoration: none;
-}
-#wrapper_c3_id3{
-font-size: 28px;
-background: url(../IMG/club.png) no-repeat;
-width: 20%;
-color: Black;
-font-weight: bold;
-text-align: center;
-padding-top: 30px;
-padding-left: 8px;
-padding-right: 8px;
-background-size: cover;
-padding-bottom: 45px;
-z-index: 100;
-border-radius: 75px;
-opacity: 0.7;
-
-}
-.wrapper_c4{
-  margin-left: 60%;
-  margin-top: 0%;
-  margin-bottom: 10%;
-}
-.wrapper_c4 a{
-  text-decoration: none;
-}
-#wrapper_c4_id4{
-font-size: 28px;
-background: url(../IMG/fifa.jpg) no-repeat;
-width: 40%;
-color: whitesmoke;
-font-weight: bold;
-text-align: center;
-padding-top: 30px;
-padding-left: 4px;
-padding-right: 8px;
-background-size: cover;
-padding-bottom: 35px;
-z-index: 100;
-border-radius: 75px;
-opacity: 0.7;
 }
 .footer1{
   position: absolute;
@@ -193,16 +79,14 @@ opacity: 0.7;
   /*background: url(../IMG/messi.jpg) no-repeat;*/
   width: 100%;
   height: 55%;
-  top: 200%;
-  opacity: 0.7;
+  top: 110%;
+  opacity: 0.8;
 }
-.footer1_div1
-{
+.footer1_div1{
   position: relative;
   float: left;
 }
-.footer1_div1_Topic
-{
+.footer1_div1_Topic{
   float: left;
   background: url(../IMG/Image2.jpg) no-repeat;
   width: 20%;
@@ -225,8 +109,7 @@ opacity: 0.7;
   border-bottom-right-radius: 125px;
   opacity: 1;
 }
-.footer1_div1_span1
-{
+.footer1_div1_span1{
   color: black;
   font-size: 20px;
   padding-left: 5px;
@@ -234,9 +117,7 @@ opacity: 0.7;
   position: relative;
   float: left;
 }
-
-.footer1_div2
-{
+.footer1_div2{
   letter-spacing: 2px;
   padding-left:35px;
   padding-top: 15px;
@@ -244,8 +125,7 @@ opacity: 0.7;
   position: relative;
   float: left;
 }
-.footer1_div2 h1
-{
+.footer1_div2 h1{
   color: green;
   padding-bottom: 10px;
 }
@@ -253,22 +133,18 @@ opacity: 0.7;
   color: black;
   text-decoration: none;
 }
-.footer1_div2_h1
-{
+.footer1_div2_h1{
   font-size: 30px;
   font-family: lobster , curvasive;
 }
-
-.footer1_div3
-{
+.footer1_div3{
   letter-spacing: 2px;
   padding-left:35px;
   padding-top: 15px;
   position: relative;
   float: left;
 }
-.footer1_div3 h1
-{
+.footer1_div3 h1{
   color: green;
   padding-bottom: 10px;
 }
@@ -276,14 +152,11 @@ opacity: 0.7;
   color: black;
   text-decoration: none;
 }
-.footer1_div3_h1
-{
+.footer1_div3_h1{
   font-size: 30px;
   font-family: lobster , curvasive;
 }
-
-.footer1_div3
-{
+.footer1_div3{
   border-left: solid;
   border-color: black;
   border-left-width: 3px;
@@ -294,8 +167,7 @@ opacity: 0.7;
   position: relative;
   float: left;
 }
-.footer1_div3 h1
-{
+.footer1_div3 h1{
   color: green;
   padding-bottom: 10px;
 }
@@ -303,14 +175,11 @@ opacity: 0.7;
   color: black;
   text-decoration: none;
 }
-.footer1_div3_h1
-{
+.footer1_div3_h1{
   font-size: 30px;
   font-family: lobster , curvasive;
 }
-
-.footer1_div4
-{
+.footer1_div4{
   border-left: solid;
   border-left-color: black;
   letter-spacing: 2px;
@@ -319,8 +188,7 @@ opacity: 0.7;
   position: relative;
   float: left;
 }
-.footer1_div4 h1
-{
+.footer1_div4 h1{
   color: green;
   padding-bottom: 10px;
 }
@@ -328,13 +196,11 @@ opacity: 0.7;
   color: black;
   text-decoration: none;
 }
-.footer1_div4_h1
-{
+.footer1_div4_h1{
   font-size: 30px;
   font-family: lobster , curvasive;
 }
-.footer1_div5
-{
+.footer1_div5{
   width: 700px;
   font-size: 25px;
   margin-top: 30px;
@@ -343,8 +209,7 @@ opacity: 0.7;
   font-family: lobster , cursive;
   font-weight: bold;
 }
-#footer1_div5_id2
-{
+.footer1_div5_id2{
   margin-top: 10px;
   margin-left: 20px;
   width: 50px;
@@ -352,83 +217,13 @@ opacity: 0.7;
   padding-right: 10px;
   float: left;opacity: 0.4;
 }
-#footer1_div5_id2:hover{
-  transition: all 1s ease-out;
+.footer1_div5_id2:hover{
+  transition: all 0.5s ease-out;
+  transform: scale(1.1);
+  opacity: 1;
+}
+.footer1_div5_id2:after{
+  transition: all 0.5s ease-out;
+  transform: scale(1.0);
   opacity: 0.8;
-}
-#footer1_div5_id2:after{
-  transition: all 2s ease-in;
-  opacity: 0.4;
-}
-#footer1_div5_id3
-{
-  padding-left: 10px;
-  margin-top: 10px;
-  padding-left: 10px;
-  width: 50px;
-  height: 50px;
-  float: left;
-  opacity: 0.4;
-}
-#footer1_div5_id3:hover{
-  transition: all 1s ease-out;
-  opacity: 0.8;
-}
-#footer1_div5_id3:after{
-  transition: all 2s ease-in;
-  opacity: 0.4;
-}
-#footer1_div5_id4
-{
-  padding-left: 10px;
-  margin-top: 10px;
-  padding-left: 20px;
-  width: 50px;
-  height: 50px;
-  float: left;
-  opacity: 0.4;
-}
-#footer1_div5_id4:hover{
-  transition: all 1s ease-out;
-  opacity: 0.8;
-}
-#footer1_div5_id4:after{
-  transition: all 2s ease-in;
-  opacity: 0.4;
-}
-#footer1_div5_id5
-{
-  padding-left: 10px;
-  margin-top: 10px;
-  padding-left: 20px;
-  width: 50px;
-  height: 50px;
-  float: left;
-  opacity: 0.4;
-}
-#footer1_div5_id5:hover{
-  transition: all 1s ease-out;
-  opacity: 0.8;
-}
-#footer1_div5_id5:after{
-  transition: all 2s ease-in;
-  opacity: 0.4;
-}
-#footer1_div5_id6
-{
-  padding-left: 10px;
-  margin-top: 10px;
-  padding-left: 20px;
-  width: 50px;
-  height: 50px;
-  float: left;
-  opacity: 0.4;
-}
-#footer1_div5_id6:hover{
-  transition: all 1s ease-out;
-  opacity: 0.8;
-}
-#footer1_div5_id6:after{
-  transition: all 2s ease-in;
-  opacity: 0.4;
 }
